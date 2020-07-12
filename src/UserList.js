@@ -27,7 +27,7 @@ useEffect(()=>{
   
 
  return (
-   <div style={{backgroundColor: (theme =='jour') ? 'white' :'black' }} > 
+   <div style={{backgroundColor: (theme =='jour') ? 'white' :'black' , height:'1230px',width:'100%'}} > 
 
    <button onClick={setThemed} 
            style={{fontSize:'30px' , borderRadius:'15px' ,
